@@ -1,0 +1,614 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif, "sail", system-ui}
+
+/* Header */
+.header {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    background: #EEFCFE;
+}
+
+/* Nav-wrapper */
+.nav-wrapper {
+    position: absolute;
+    width: 1000px;
+    height: 109px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 26px;
+    background: #0B6472;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+/* contact */
+.contact {
+    position: relative;
+}
+
+/* button.btn.primary-color */
+.button.btn.primary-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px 15px 14px;
+    gap: 7px;
+    background: #9DF3FF;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* btn-text */
+.btn-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+/* icn arrow-right .icn-xs */
+.icn-xs {
+    width: 12px;
+    height: 10px;
+}
+
+/* nav-menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-menu ul {
+    margin-left: auto;
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.nav-menu ul li a:hover{
+    color: #9DF3FF;
+}
+
+/* myprofil */
+.myprofil {
+    display: flex;
+    align-items: center;
+}
+
+/* MyProfile */
+.myprofile-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #18C4DC;
+}
+
+/* container */
+.container {
+    position: absolute;
+    width: 1040px;
+    height: 755px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 151px;
+}
+
+/* circle */
+.circle {
+    position: absolute;
+    width: 356px;
+    height: 354px;
+    background: #9DF3FF;
+    border-radius: 50%;
+}
+
+/* IMG */
+.img img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 473.77px;
+    left: 283px;
+    top: 225px;
+    border: 10px solid #9DF3FF;
+    border-radius: 340px;
+}
+
+/* Welcome */
+.welcome {
+    position: absolute;
+    width: 942px;
+    height: 187px;
+    left: 44px;
+    top: 28px;
+}
+
+/* Star */
+.star1 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 587px;
+    top: 36px;
+}
+
+.star2 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 633px;
+    top: 52px;
+}
+
+.star3 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 685px;
+    top: 41px;
+}
+
+.star4 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 319px;
+    top: 36px;
+
+}
+
+.star5 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 277px;
+    top: 52px;
+}
+
+.star6 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 241px;
+    top: 41px;
+}
+
+/* WELCOME To My Website */
+.welcome-text {
+    position: absolute;
+    width: 459px;
+    height: 127px;
+    left: 244px;
+    top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 70px;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-content i {
+    margin-right: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* About me section styles */
+#about {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    background: #EEFCFE;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    position: absolute;
+    width: 500px;
+    height: 623px;
+    left: 91px;
+    top: 249px;
+}
+
+.about-text h1 {
+    font-size: 70px;
+    font-family: "sail", system-ui;
+}
+
+.about-text p {
+    font-family: 'montaga';
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.about-text button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #23A6F0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.about-text button:hover {
+    background-color: #23A6F0;
+}
+
+.about-image {
+    position: absolute;
+    width: 470px;
+    height: 590px;
+    right: 50px;
+    bottom: 185px;
+    border-radius: 40px;
+}
+
+.about-image img {
+    position: absolute;
+    width: 470px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    border-radius: 40px;
+}
+
+/* Education */
+.education {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    background: #EEFCFE;
+}
+
+/* Text */
+.text {
+    position: absolute;
+    width: 100%;
+    height: 148px;
+    left: 0;
+    top: 88px;
+    font-family: 'Montagu Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-align: center;
+}
+
+.highlight {
+    color: #89EFFF;
+}
+
+/* School common styles */
+.school {
+    position: absolute;
+    width: 30%;
+    height: 590px;
+}
+
+.school .rectangle-1, .school .rectangle-2 {
+    position: absolute;
+    border-radius: 73px;
+}
+
+.school .rectangle-1 {
+    width: 80%;
+    height: 270px;
+    background: #AAF2FD;
+}
+
+.school .rectangle-2 {
+    width: 82%;
+    height: 280px;
+    background: #FFFFFF;
+}
+
+.school .school-logo {
+    position: absolute;
+    border-radius: 73px;
+}
+
+.school .school-level {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.school .school-name {
+    position: absolute;
+    font-family: 'Montagu Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+/* Elementary School */
+#sd {
+    left: 5%;
+    top: 250px;
+}
+
+#sd .rectangle-1 {
+    left: 10%;
+    top: 0px;
+}
+
+#sd .rectangle-2 {
+    left: 7%;
+    top: 35px;
+}
+
+#sd .school-logo{
+    width: 70%;
+    height: 350px;
+    left: 18%;
+    top: 55px;
+}
+
+#sd .school-level {
+    top: 394px;
+}
+
+#sd .school-name {
+    top: 437px;
+}
+
+/* Junior High School */
+#smp {
+    left: 35%;
+    top: 250px;
+}
+
+#smp .rectangle-1 {
+    left: 10%;
+    top: 0px;
+}
+
+#smp .rectangle-2 {
+    left: 7%;
+    top: 35px;
+}
+
+#smp .school-logo {
+    width: 70%;
+    height: 291px;
+    left: 18%;
+    top: 58px;
+}
+
+#smp .school-level {
+    top: 395px;
+}
+
+#smp .school-name {
+    top: 439px;
+}
+
+/* Senior High School */
+#sma {
+    left: 65%;
+    top: 250px;
+}
+
+#sma .rectangle-1 {
+    left: 10%;
+    top: 0px;
+}
+
+#sma .rectangle-2 {
+    left: 7%;
+    top: 35px;
+}
+
+#sma .school-logo img{
+    width: 100%;
+}
+
+#sma .school-logo {
+    position: absolute;
+    right: 13%;
+    height: 291px;
+    left: 10%;
+    top: 43px;
+}
+
+#sma .school-level {
+    top: 399px;
+}
+
+#sma .school-name {
+    top: 447px;
+}
+
+/* Contact Section */
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #EEFCFE;
+}
+
+.contactme {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contactme h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+}
+
+.contactme p {
+    position: relative;
+    width: 483px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.nama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.first input, .middle input, .last input {
+    box-sizing: border-box;
+    width: 268px;
+    height: 47px;
+    background: #FCFCFC;
+    border: 2px solid #0B6472;
+    border-radius: 5px;
+}
+
+.pesan {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pesan textarea {
+    width: 100%;
+    padding: 10px;
+    background: #FCFCFC;
+    border: 2px solid #0B6472;
+    border-radius: 5px;
+    font-size: 15px;
+    resize: none;
+    height: 200px;
+}
+
+.contactus {
+    padding: 10px 20px;
+    background: #0B6472;
+    color: #FCFCFC;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+}
+
+.contactus:hover {
+    background: #084d58;
+}
+
+/* Footer */
+.footer {
+    background: #0B6472;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.thank h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+}
+
+.thank p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 24px;
+    height: 24px;
+}
